@@ -9,6 +9,6 @@ print (lista_arquivos)
 
 for arquivo in lista_arquivos:
     if ".pdf" in arquivo:
-        merger.append(f"LETRAS/{arquivo}")
+        merger.append(f"LETRAS/{arquivo}") //adiciona o arquivo novo
 
 merger.write("PDF Letras.pdf")
